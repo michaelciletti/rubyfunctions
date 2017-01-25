@@ -35,4 +35,12 @@ class TestAddition < Minitest::Test
 		assert_equal("Hello Mike", add("Hello ","Mike"))
 	end
 
+	def test_1_plus1_plus1_returns_3
+		assert_equal(3, add(1,1,1))
+	end
+
+	def test_1_plus1_plus1_plus5_equals8
+		assert_equal(8, add(1,1,1,5))
+	end
+
 end
