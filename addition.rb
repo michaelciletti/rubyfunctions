@@ -10,7 +10,10 @@ def add(*numbers)
 	numbers.inject do |sum, number|
 		sum += number
 	end
+
 end
+
+# add(2,56)
 
 
 

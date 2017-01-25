@@ -44,3 +44,4 @@ class TestAddition < Minitest::Test
 	end
 
 end
+
