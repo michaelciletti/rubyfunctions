@@ -23,4 +23,9 @@ class TestDivision < Minitest::Test
 		assert_equal(4.71, divide(-40,-8.5))
 	end
 
+		def test_divedend_30_divisor_0_returns_error
+		assert_equal("error", divide(30,0))
+	end
+
+
 end
