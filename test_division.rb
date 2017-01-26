@@ -11,4 +11,16 @@ class TestDivision < Minitest::Test
 		assert_equal(-10, divide(30,-3))
 	end
 
+	def test_divedend_0_divisor_30_returns_0
+		assert_equal(0, divide(0,30))
+	end
+
+	def test_divedend_33_divisor_1point2_returns_27point5
+		assert_equal(27.5, divide(33,1.2))
+	end
+
+	def test_divedend_0_divisor_30_returns_0
+		assert_equal(4.71, divide(-40,-8.5))
+	end
+
 end
