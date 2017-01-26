@@ -23,6 +23,10 @@ class TestSubtraction < Minitest::Test
 		assert_equal(2.6, sub(5.5,2.9))
 	end
 
+	def test_sub_neg5_minus_neg3__returns_neg8
+		assert_equal(-8, sub(-5,3))
+	end
+
 
 	# def test_hello_mike_minus_mike_returns_hello
 	# 	assert_equal("Hello", sub("Hello","Mike"))
