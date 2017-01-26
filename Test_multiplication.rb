@@ -35,4 +35,8 @@ class TestMultiplication < Minitest::Test
 		assert_equal(-6.6, mult(-3,2.2))
 	end
 
+	def test_mult_neg3_X2point2_returns_neg6point6
+		assert_equal(-6.6, mult(-3,2.2))
+	end
+
 end
