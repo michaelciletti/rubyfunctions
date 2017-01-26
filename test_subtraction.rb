@@ -19,8 +19,14 @@ class TestSubtraction < Minitest::Test
 		assert_equal(7, sub(10,1,2))
 	end
 
+	# def test_hello_mike_minus_mike_returns_hello
+	# 	assert_equal("Hello", sub("Hello","Mike"))
+	# end
+	#sub strings not working with function like it did with addition
+
 	# def test_sub_10_8_minus_1_7_returns_9_1
 	# 	assert_equal(9.1, sub(10.8,1.7))
 	# end
+	# getting error I don't understand^^^^^
 
 end
