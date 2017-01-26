@@ -5,7 +5,7 @@
 
 def sub(*numbers)
 	numbers.inject do |diff, number|
-		diff -= number
+		(diff -= number).round(2)
 	end
 
 end
