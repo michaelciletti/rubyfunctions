@@ -1,6 +1,6 @@
 def mult(*numbers)
 	numbers.inject do |product, number|
-		product *= number
+		(product *= number).round(2)
 	end
 
 end
