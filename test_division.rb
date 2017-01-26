@@ -19,12 +19,12 @@ class TestDivision < Minitest::Test
 		assert_equal(27.5, divide(33,1.2))
 	end
 
-	def test_divedend_0_divisor_30_returns_0
+	def test_divedend_neg40_divisor_neg8point5_returns_4point71
 		assert_equal(4.71, divide(-40,-8.5))
 	end
 
 		def test_divedend_30_divisor_0_returns_error
-		assert_equal("error", divide(30,0))
+		assert_equal("Cant't divide a number by 0", divide(30,0))
 	end
 
 
