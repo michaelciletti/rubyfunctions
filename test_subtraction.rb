@@ -19,6 +19,11 @@ class TestSubtraction < Minitest::Test
 		assert_equal(7, sub(10,1,2))
 	end
 
+	def test_sub_5_5_minus_2_9_returns_2_6
+		assert_equal(2.6, sub(5.5,2.9))
+	end
+
+
 	# def test_hello_mike_minus_mike_returns_hello
 	# 	assert_equal("Hello", sub("Hello","Mike"))
 	# end
