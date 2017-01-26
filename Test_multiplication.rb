@@ -11,4 +11,8 @@ class TestMultiplication < Minitest::Test
 		assert_equal(600, mult(10,3,2,10))
 	end
 
+	def test_mult_10_X0_returns_0
+		assert_equal(0, mult(10,0))
+	end
+
 end
