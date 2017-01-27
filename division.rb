@@ -1,8 +1,15 @@
-def divide(*numbers)
-	numbers.inject do |divedend, number|
-	quo = (divedend /= number).round(2)
+# def divide(*numbers)
+# 	numbers.inject do |divedend, number|
+# 	quo = (divedend /= number).round(2)
 		
-		
+def divide(num1, num2)
+	results = ""
+	if num2 == 0
+		"False"
+	else
+	results = num1/num2
+end
+
 			
 	# if number == 0
 	# 	return "Cant't divide a number by 0"
@@ -25,8 +32,8 @@ def divide(*numbers)
 		# 	return "error"
 	# end
 
-	end
+	# end
 
 end
 
-puts divide(10,2,2)
+# puts divide(10,2,2)

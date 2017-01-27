@@ -15,5 +15,11 @@ end
 
 # add(2,56)
 
+# def add(num1, num2)
+# 	results = ""
+# 	results = (num1 + num2)
+# end
+# ^^^^This nworks but only for 2 numbers
+
 
 
